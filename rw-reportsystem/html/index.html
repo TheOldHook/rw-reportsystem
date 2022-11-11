@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script> 
+	</head>
+	<body>
+		<div id="container">
+            <h1>Rapporter</h1>
+            <p>
+            <p {{ playerName }} id="name">
+            <p {{ playerId }} id="playerid"> 
+            <p {{ error-msg }} id="errorMSG">
+            <p {{ PlayerJob }} id="playerjob">
+            </p>
+            <form id="form">
+                <input placeholder="Skriv en tittel" id="tittel" required></input>
+                <textarea rows="10" cols="44" placeholder="Skriv en beskrivelse" name="comment" id="detaljer" required></textarea>
+                <button id="submit" type="submit">Send</button>
+                <button id="close">Lukk</button>
+            </form>
+            <img src="test.png" alt="Test">
+		</div>
+        <script src="./index.js" type="text/javascript"></script>
+	</body>
+</html>

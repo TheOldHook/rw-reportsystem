@@ -1,0 +1,123 @@
+body {
+    font-family: 'DM Mono', monospace;
+    background: none !important;
+}
+
+#container {
+    font-size: 20px;
+    padding: 120px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(10, 10, 10);
+    height: 160px;
+    width: 350px;
+    border: 5px solid rgb(13, 202, 236);
+    border-radius: 17px;
+}
+
+button {
+    background-color: rgb(29, 202, 236);
+    padding: 12px 28px;
+    border-radius: 12px;
+    bottom: 10px;
+    text-align: center;
+    display:inline-block;
+    font-family: 'DM Mono', monospace;
+    font-weight: bold;
+}
+
+button:hover {background-color: #bdcf16}
+
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 1px rgb(5, 165, 214);
+    transform: translateY(2px);
+  }
+
+
+#detaljer {
+    margin-bottom: 24px;
+    width: 100%;
+    height: 150px;
+    font-size: 15px;
+    padding: 12px;
+}
+
+#tittel {
+    background: hsl(var(--hue), calc(var(--sat) * 1%), calc(var(--light) * 1%));
+    margin-bottom: 10px;
+    width: 100%;
+    height: 15px;
+    font-size: 15px;
+    padding: 15px;
+    font-weight: bold;
+    
+}
+
+#name {
+    position: absolute;
+    color: rgb(66, 255, 13);
+    width: 100%;
+    height: 15px;
+    font-size: 15px;
+    top: 70px;
+}
+
+#playerid {
+    position: absolute;
+    color: rgb(66, 255, 13);
+    width: 100%;
+    height: 15px;
+    font-size: 15px;
+    top: 50px;
+}
+
+.error-msg {
+    position: absolute;
+    color: rgb(226, 110, 110);
+    width: 100%;
+    height: 15px;
+    font-size: 10px;
+    bottom: 65px;
+    left: 130px;
+}
+
+#playerjob {
+    position: absolute;
+    color: rgb(66, 255, 13);
+    width: 100%;
+    height: 15px;
+    font-size: 15px;
+    top: 90px;
+}
+
+h1 {
+    position: absolute;
+    color: rgb(214, 214, 214);
+    width: 100%;
+    height: 15px;
+    font-size: 20px;
+    top: 85px;
+    left: 350;
+    font-weight: bold;
+}
+
+img {
+    background-image: url(test.png);
+    position: absolute;
+    bottom: 2px;
+    right: -10px;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 100px;
+}
+
+:root {
+    --hue: 71; 
+    --sat: 100;
+    --light: 50;
+}
