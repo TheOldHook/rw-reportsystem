@@ -7,6 +7,7 @@ I made this script 6 months ago to start learning about lua and nui, the nui is 
 
 When the player opens the menu, the person can see information about their job, id and license.
 
-[WebHook Example](https://user-images.githubusercontent.com/71928222/201292773-2b982f99-f255-4602-8754-66d954e859e3.jpg)
 
+
+![WebHook Example in Discord](https://user-images.githubusercontent.com/71928222/201293678-1ca1c759-80b7-43a8-afb8-4f5f1b85a47d.jpg)
 
