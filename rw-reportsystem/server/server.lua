@@ -1,7 +1,7 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 
 local discord_webhook = {
-    url = "https://discord.com/api/webhooks/967855727525888010/SMAng4M_xKsrMUIFGow7uDqKpWIp9trd4NSGU4u1BtfpA5KZfHaaFOx20BpQ9eKEMz-Z", -- Your Discord webhook url
+    url = "", -- Your Discord webhook url
     image = "https://i.imgur.com/oULfkE6.png"
 }
 
